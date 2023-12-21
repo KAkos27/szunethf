@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+}
 main{
     height: 100vh;
     margin: auto;
@@ -34,6 +38,7 @@ article{
     margin-top: 8px;
     margin-bottom: 8px;
     border-radius: 15px;
+    padding: 8px;
 }
 #jobb{
     background-color: #375993;
@@ -41,6 +46,7 @@ article{
     margin-top: 8px;
     margin-bottom: 8px;
     border-radius: 15px;
+    padding: 8px;
 }
 
 footer{
