@@ -116,6 +116,7 @@ article {
   margin-bottom: 8px;
 }
 #daniakep {
+  background-color: #4b5b7c;
   grid-column: 4;
   grid-row: 2/4;
   margin-bottom: 8px;
