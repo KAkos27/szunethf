@@ -24,6 +24,8 @@ nav {
   grid-row: 1/4;
   grid-column: 1/4;
   filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.3));
+  position: sticky;
+  top: 0;
 }
 nav ul {
   list-style-type: none;
@@ -71,7 +73,12 @@ article {
 }
 .rajzok,
 .tarolo {
-  background-color: #ac6d82;
+  background: rgb(254, 188, 102);
+  background: linear-gradient(
+    0deg,
+    rgba(254, 188, 102, 1) 0%,
+    rgba(172, 109, 130, 1) 100%
+  );
 }
 .rajzok img,
 #oslokep img,
