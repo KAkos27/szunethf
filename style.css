@@ -91,7 +91,10 @@ article {
   border-radius: 15px;
 }
 #oslo,
-#roma {
+#roma,
+#chopinleiras,
+#lisztleiras,
+#satieleiras {
   border-radius: 15px;
   background-color: #6f7e98;
   padding: 8px;
@@ -151,6 +154,9 @@ article {
 }
 #kep6 {
   grid-column: 4;
+}
+iframe {
+  border-radius: 15px;
 }
 footer {
   background-color: #4b5b7c;
