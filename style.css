@@ -158,6 +158,29 @@ article {
 iframe {
   border-radius: 15px;
 }
+#chopinleiras {
+  grid-column: 2/4;
+  margin-bottom: 8px;
+}
+#chopin {
+  grid-column: 4;
+}
+#lisztleiras {
+  grid-column: 3/5;
+  grid-row: 2;
+  margin-bottom: 8px;
+}
+#liszt {
+  grid-column: 2;
+  grid-row: 2;
+}
+#satieleiras {
+  grid-column: 2/4;
+  margin-bottom: 8px;
+}
+#satie {
+  grid-column: 4;
+}
 footer {
   background-color: #4b5b7c;
   grid-row: 36;
