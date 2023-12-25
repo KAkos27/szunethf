@@ -83,7 +83,8 @@ article {
 .rajzok img,
 #oslokep img,
 #romakep img,
-#daniakep img {
+#daniakep img,
+article img {
   width: 100%;
   height: auto;
   max-width: 100%;
@@ -102,7 +103,8 @@ article {
 #daniakep,
 #chopinleiras,
 #lisztleiras,
-#satieleiras {
+#satieleiras,
+#etelszoveg {
   border-radius: 15px;
   background-color: #6f7e98;
   padding: 8px;
@@ -192,6 +194,18 @@ iframe {
 }
 #satie {
   grid-column: 4;
+}
+#etelszoveg{
+  grid-column: 2/4;
+}
+#pizzakep{
+  grid-column: 3;
+}
+#lazackep{
+  grid-column: 2;
+}
+#etelszoveg{
+  margin-bottom: 18px;
 }
 footer {
   background-color: #4b5b7c;
