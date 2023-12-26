@@ -1,0 +1,118 @@
+@media (max-width: 420px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+    text-align: justify;
+    font-size: 4vw;
+  }
+  main {
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    background: rgb(254, 188, 102);
+    background: linear-gradient(
+      0deg,
+      rgba(254, 188, 102, 1) 0%,
+      rgba(172, 109, 130, 1) 100%
+    );
+  }
+  nav {
+    background-color: #4b5b7c;
+    height: 100%;
+    grid-column: 1/4;
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.3));
+  }
+  nav ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+  }
+  nav ul li {
+    padding: 10px;
+    text-align: center;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+  }
+  nav ul li:hover {
+    background-color: antiquewhite;
+  }
+  nav ul li:hover a {
+    color: #375993;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 15px;
+  }
+  .kepleiras {
+    margin: auto;
+    background-color: #375993;
+    margin-top: 8px;
+    padding: 8px;
+    border-radius: 15px;
+  }
+  #kep1,
+  #kep2,
+  #kep3,
+  #kep4,
+  #kep5,
+  #kep6 {
+    margin: auto;
+    border-radius: 15px;
+    background-color: #4b5b7c;
+    padding: 8px;
+    margin-top: 8px;
+  }
+  #daniakep {
+    margin-top: 8px;
+    background-color: #4b5b7c;
+  }
+  #oslo,
+  #roma,
+  #daniakep,
+  #chopinleiras,
+  #lisztleiras,
+  #satieleiras,
+  #etelszoveg {
+    margin-top: 8px;
+    border-radius: 15px;
+    background-color: #6f7e98;
+    padding: 8px;
+  }
+  iframe{
+    margin-top: 8px;
+    border-radius: 15px;
+  }
+  #bal {
+    background-color: #6f7e98;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 15px;
+    padding: 8px;
+  }
+  #jobb {
+    background-color: #375993;
+    margin-bottom: 8px;
+    border-radius: 15px;
+    padding: 8px;
+  }
+  #carbonarakep{
+    margin-top: 4px;
+  }
+  footer {
+    background-color: #4b5b7c;
+    grid-row: 8;
+    grid-column: 1/4;
+    text-align: center;
+  }
+}
