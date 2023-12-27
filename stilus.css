@@ -110,6 +110,15 @@
     background-color: #6f7e98;
     padding: 8px;
   }
+  #eteltarolo:has(img:hover) img:not(:hover){
+    scale: .95;
+    opacity: .7;
+  }
+  #chopinleiras:hover,
+  #lisztleiras:hover,
+  #satieleiras:hover{
+    scale: 1.1;
+  }
   #oslo {
     grid-row: 2;
     grid-column: 2;
