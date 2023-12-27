@@ -81,11 +81,7 @@
       rgba(172, 109, 130, 1) 100%
     );
   }
-  .rajzok img,
-  #oslokep img,
-  #romakep img,
-  #daniakep img,
-  article img {
+ img {
     width: 100%;
     height: auto;
     max-width: 100%;
