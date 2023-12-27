@@ -114,10 +114,8 @@
     scale: .95;
     opacity: .7;
   }
-  #chopinleiras:hover,
-  #lisztleiras:hover,
-  #satieleiras:hover{
-    scale: 1.1;
+  iframe:hover{
+    scale: 1.15;
   }
   #oslo {
     grid-row: 2;
