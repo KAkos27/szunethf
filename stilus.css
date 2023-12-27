@@ -37,6 +37,7 @@
   nav ul li {
     padding: 10px;
     text-align: center;
+    cursor: pointer;
   }
   nav ul li a {
     text-decoration: none;
