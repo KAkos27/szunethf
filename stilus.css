@@ -40,7 +40,7 @@
   }
   nav ul li a {
     background-image: linear-gradient(antiquewhite, antiquewhite);
-    background-size: 0% 2px;
+    background-size: 0% 2.5px;
     background-repeat: no-repeat;
     background-position: left bottom;
     transition: background-size 200ms ease;
@@ -48,7 +48,7 @@
     color: antiquewhite;
   }
   nav ul li a:hover {
-    background-size: 100% 2px;
+    background-size: 100% 1.5px;
   }
   .elso {
     grid-column: 3;
