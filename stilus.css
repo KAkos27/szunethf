@@ -37,17 +37,18 @@
   nav ul li {
     padding: 10px;
     text-align: center;
-    cursor: pointer;
   }
   nav ul li a {
+    background-image: linear-gradient(antiquewhite, antiquewhite);
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition: background-size 200ms ease;
     text-decoration: none;
     color: antiquewhite;
   }
-  nav ul li:hover {
-    background-color: antiquewhite;
-  }
-  nav ul li:hover a {
-    color: #375993;
+  nav ul li a:hover {
+    background-size: 100% 2px;
   }
   .elso {
     grid-column: 3;
@@ -82,7 +83,7 @@
       rgba(172, 109, 130, 1) 100%
     );
   }
- img {
+  img {
     width: 100%;
     height: auto;
     max-width: 100%;
@@ -107,9 +108,9 @@
     background-color: #6f7e98;
     padding: 8px;
   }
-  #eteltarolo:has(img:hover) img:not(:hover){
-    scale: .95;
-    opacity: .7;
+  #eteltarolo:has(img:hover) img:not(:hover) {
+    scale: 0.95;
+    opacity: 0.7;
   }
   #oslo {
     grid-row: 2;
@@ -174,7 +175,7 @@
   iframe {
     border-radius: 15px;
   }
-  iframe:hover{
+  iframe:hover {
     scale: 1.15;
   }
   #chopinleiras {
