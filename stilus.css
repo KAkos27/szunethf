@@ -108,9 +108,13 @@
     background-color: #6f7e98;
     padding: 8px;
   }
-  #eteltarolo:has(img:hover) img:not(:hover) {
-    scale: 0.95;
-    opacity: 0.7;
+  #eteltarolo img {
+    filter: grayscale(100%);
+    transition: 0.5s ease;
+  }
+  #eteltarolo img:hover {
+    transform: scale(1.05);
+    filter: grayscale(0%);
   }
   #oslo {
     grid-row: 2;
@@ -173,10 +177,12 @@
     grid-column: 4;
   }
   iframe {
+    border: 0;
     border-radius: 15px;
+    transition: 0.5s ease;
   }
   iframe:hover {
-    scale: 1.15;
+    transform: scale(1.15);
   }
   #chopinleiras {
     grid-column: 2/4;
